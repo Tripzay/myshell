@@ -1,0 +1,977 @@
+    1   su -c "curl https://satya164.github.io/fedy/fedy-installer -o fedy-installer && chmod +x fedy-installer && ./fedy-installer"
+    2  dnf install fedy
+    3  cd Desktop/
+    4  ls
+    5  tar -zxvf burma-keyboard-tk-0.1.1.tar.gz 
+    6  cd burma-keyboard-tk/
+    7  python burma-keyboard-nogui.py 
+    8  cd zawgyi2009/
+    9  ls
+   10  cp Zawgyi-One_v4.30_November_14_20.ttf /usr/share/fonts/zawgyi/ZawgyiOne20080210.ttf 
+   11  ls
+   12  mkdir bash_class
+   13  ls
+   14  cd bash_class/
+   15  ls
+   16  vi bash_test
+   17  chmod a+x bash_test 
+   18  ./bash_test 
+   19  vi bash_test
+   20  ./bash_test 
+   21  vi bash_test
+   22  ./bash_test 
+   23  vi bash_test
+   24  ./bash_test 
+   25  vi bash_test2
+   26  ./bash_test2
+   27  chmod a+x bash_test2
+   28  ./bash_test2
+   29  vi bash_test2
+   30  ./bash_test2
+   31  vi building_bash 
+   32  vim asdf
+   33  vi building_bash
+   34  chmod building_bash 
+   35  chmod a+x  building_bash 
+   36  ./building_bash 
+   37  nslookup www.google.com
+   38  dnf install update -y
+   39  uname -a
+   40  dnf install  vim -y
+   41  vim test
+   42  vim test.sh
+   43  ./bash_test
+   44  ./building_bash 
+   45  ls
+   46  vim bash_class/
+   47  cd bash_class/
+   48  ls
+   49  vim bash_test
+   50  ls
+   51  vim building_bash 
+   52  su -c "curl https://satya164.github.io/fedy/fedy-installer -o fedy-installer && chmod +x fedy-installer && ./fedy-installer"
+   53  dnf install http://sourceforge.net/projects/htop/files/htop/1.0.2/htop-1.0.2.tar.gz/download
+   54  wget http://sourceforge.net/projects/htop/files/htop/1.0.2/htop-1.0.2.tar.gz/download
+   55  dnf install htop.x86_64 
+   56  htop
+   57  top
+   58  lscpu
+   59  cat << EOF > /etc/yum.repos.d/google-chrome.repo
+   60  [google-chrome]
+   61  name=google-chrome - \$basearch
+   62  baseurl=http://dl.google.com/linux/chrome/rpm/stable/\$basearch
+   63  enabled=1
+   64  gpgcheck=1
+   65  gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
+   66  EOF
+   67  dnf install google-chrome-stable
+   68  ls
+   69  cd Downloads/
+   70  ls
+   71  ls -ll
+   72  ls
+   73  cd /
+   74  ls
+   75  cd ~
+   76  ls
+   77  cd home
+   78  cd /home/zayar/
+   79  ls
+   80  ls -ll
+   81  cd bash_class/
+   82  ls
+   83  ./building_bash 
+   84  ./building_bash
+   85  nslookup www.google.com
+   86  ls -ll
+   87  telnet www.google.com 80
+   88  chmod a+x os_file.sh 
+   89  ./os_file.sh 
+   90  ./os_selection.sh 
+   91  ls -ll
+   92  ls
+   93  cat /etc/*-release
+   94  cat /etc/*-release | grep PRETTY
+   95  cat /etc/*-release | grep PRETTY | awk '{print $1}'
+   96  cat /etc/*-release | grep PRETTY | awk '{print $1}' | cut -d'"' -f2
+   97  cat /etc/*-release | grep PRETTY | awk '{print $1}' | cut -d'"' -f1
+   98  cat /etc/*-release | grep REDHAT | tail -n 2 | head -n 1
+   99  cat /etc/*-release | grep REDHAT | tail -n 2 | head -n 1 | cut -d'"' -f2
+  100  cat /etc/*-release 
+  101  cat /etc/*-release | grep ID= | head -n 1 | cut -d'"' -f2
+  102  cat /etc/*-release | grep ID= | head -n 1 | cut -d'=' -f2
+  103  cat /etc/redhat-release 
+  104  cd bash_class/
+  105  ls
+  106  chmod a+x os_selection.sh 
+  107  ./os_selection.sh 
+  108  ./os_selection.sh
+  109  ./os_selection.sh 
+  110  htop
+  111  # curl www.google.com.mm | grep "</title>" | awk '{print $7}' | cut -d'>' -f3 | cut -d'<' -f1
+  112  clear
+  113  ./os_selection.sh 
+  114  vim os_file.sh
+  115  cd bash_class/
+  116  vim os_selection.sh
+  117  ./os_selection.sh 
+  118  vim os_selection.sh 
+  119  ./os_selection.sh 
+  120  vim os_selection.sh 
+  121  ls
+  122  vim menu1.sh
+  123  l
+  124  ls
+  125  vim menu_lab.sh
+  126  exit
+  127  cat /etc/*-release | grep 
+  128  cat /etc/*-release | grep PRETTY
+  129  tail -n /etc/*-release
+  130  cat /etc/*-release | grep PRETTY | awk '{print $1}'
+  131  cat /etc/*-release | grep PRETTY | awk '{print $1}' | cut -d'"' -f2
+  132  chmod a+x menu1.sh 
+  133  ./menu1.sh 
+  134  clear
+  135  chmod a+x menu_lab.sh 
+  136  ./menu_lab.sh 
+  137  exit
+  138  cd bash_class/
+  139  vim bash_test
+  140  vim building_bash 
+  141  ./building_bash 
+  142  vim building_bash 
+  143  ifconfig more
+  144  ifconfig | mote
+  145  ifconfig | more
+  146  tcpdump -ni enp0s20u2c4i2 dst host 111.84.96.34
+  147  tcpdump -ni enp0s20u2c4i2 host 111.84.96.34
+  148  ls
+  149  ls -ll
+  150  vim data_list_db.sh
+  151  chomd a+x data_list_db.sh
+  152  chmod a+x data_list_db.sh 
+  153  ./data_list_db.sh 
+  154  ls
+  155  ls -ll
+  156  cd ..
+  157  ls
+  158  cd zayar
+  159  ls
+  160  ./data_list_db.sh 
+  161  dnf install 
+  162  dnf install netcat
+  163  nslookup www.google.com
+  164  dnf install netcat
+  165  dnf install update -y
+  166  dnf intall update -y
+  167  dnf install update -y
+  168  dnf install netcat -y
+  169  netcat
+  170  wget http://download.opensuse.org/source/distribution/11.4/repo/oss/suse/src/netcat-1.10-1008.1.src.rpm
+  171  dnf install netcat-1.10-1008.1.src.rpm 
+  172  ls
+  173  rm netcat-1.10-1008.1.src.rpm 
+  174  ls
+  175  wget ftp://rpmfind.net/linux/Mandriva/official/2008.0/x86_64/media/contrib/release/netcat-0.7.1-2mdv2008.0.x86_64.rpm
+  176  dnf install netcat-0.7.1-2mdv2008.0.x86_64.rpm 
+  177  ls
+  178  wget http://linux.softpedia.com/get/System/Networking/netcat-329.shtml#download
+  179  ls
+  180  dnf install netcat-329.shtml
+  181  rm netcat-329.shtml 
+  182  ls
+  183  cd bash_class/
+  184  ls
+  185  ./os_file.sh 
+  186  ./os_selection.sh 
+  187  vim os_selection.sh 
+  188  cd bash_class/
+  189  ls
+  190  vim os_selection.sh 
+  191  vim os_file.sh 
+  192  cat /etc/redhat-release 
+  193  ls
+  194  cat /etc/mtab
+  195  clear
+  196  cat /etc/mtap
+  197  cat /etc/mtab
+  198  lspci
+  199  df -h
+  200  cat /etc/mtab
+  201  cat /etc/mount
+  202  mount -a
+  203  df -f
+  204  df -h
+  205  df - m
+  206  df -m
+  207  df -h
+  208  cd /run/media/zayar/
+  209  ls
+  210  cd TRIP\ TRAVEL/
+  211  ls
+  212  ls -ll
+  213  exit
+  214  telnet 192.168.11.1 
+  215  dnf update
+  216  dnf install netcat
+  217  ls
+  218  dnf install netcat-0.7.1-2mdv2008.0.x86_64.rpm 
+  219  uname -a
+  220  dnf install netcat-0.7.1-2mdv2008.0.x86_64.rpm 
+  221  ssh 192.168.10.60
+  222  dnf install netcat
+  223  cd /etc/yum.repos.d/
+  224  ll
+  225  dnf install nc
+  226  ls
+  227  exit
+  228  ipconfig
+  229  reboot
+  230  cd bash_class/
+  231  vim 28-7-2015
+  232  chmod a+x 28-7-2015 
+  233  ./28-7-2015 
+  234  vim 28-7-2015
+  235  ./bash_test
+  236  ls
+  237  ./os_selection.sh 
+  238  vim ./os_selection.sh 
+  239  ls
+  240  vim building_bash 
+  241  ./28-7-2015 
+  242  ls
+  243  vim bash_test
+  244  nc -vv 10000
+  245  nc -vv 8.8.8.8 10000
+  246  exit
+  247  shutdown
+  248  -c
+  249  shutdown 
+  250  halt
+  251  lls
+  252  ls
+  253  cd bash
+  254  cd bash_class/
+  255  ls
+  256  cat menu_lab.sh 
+  257  clear
+  258  vim menu_lab.sh 
+  259  ./menu_lab.sh 
+  260  6
+  261  ./menu_lab.sh 
+  262  lspci
+  263  clear
+  264  ls
+  265  ./os_file.sh 
+  266  vim ./os_file.sh q
+  267  vim ./os_file.sh
+  268  chmod a+x os_file.sh 
+  269  vim os_file.sh 
+  270  vim os_file.sh
+  271  rm os_file.sh 
+  272  ls
+  273  rm os_file.sh 
+  274  ls
+  275  clear
+  276  ls
+  277  vim os_selection.sh 
+  278  vim 28-7-2015 
+  279  vim building_bash 
+  280  claer
+  281  ls]
+  282  cler
+  283  cleaer
+  284  clear
+  285  ls
+  286  vim menu1.sh 
+  287  ./menu_lab.sh 
+  288  ip ddr
+  289  ip addr
+  290  htop
+  291  getenforce 
+  292  ./menu_lab.sh 
+  293  clear
+  294  ./os_selection.sh 
+  295  ./os_selection.sh
+  296  cat /etc/redhat-release 
+  297  cat /etc/redhat-release | awk 
+  298  cat /etc/redhat-release | awk '{print $1}'
+  299  cat /etc/redhat-release 
+  300  cat /etc/redhat-release | awk '{print $1}'
+  301  cat /etc/redhat-release 
+  302  cat /etc/redhat-release | awk '{print $1}'
+  303  echo This is Fedora 
+  304  echo cat /etc/redhat-release
+  305  echo "$cat /etc/redhat-release "
+  306  echo "$cat /etc/redhat-release"
+  307  echo "$(cat /etc/redhat-release)"
+  308  clear
+  309  ./building_bash 
+  310  clear
+  311  ./building_bash 
+  312  clear
+  313  ls
+  314  clear
+  315  -htdf 
+  316  df -ht
+  317  du
+  318  du -k/home/html
+  319  fc-l
+  320  file bash_class/
+  321  find /zayar/bash
+  322  w
+  323  finger
+  324  free
+  325  free -m
+  326  free-t-0
+  327  cat /etc/passwd | grep dso
+  328  cat /etc/passwd 
+  329  cat /etc/passwd | grep dso
+  330  groupadd 
+  331  gzip
+  332  gzip -h
+  333  hostname
+  334  history
+  335  insmod
+  336  installpkg installpkg  -r 
+  337  jobs
+  338  ipchains
+  339  touch apple
+  340  ls
+  341  uname 0a
+  342  uname -a
+  343  whatis 
+  344  whatis cat
+  345  whatis 
+  346  whatis vi
+  347  w
+  348  which building
+  349  who
+  350  whoami
+  351  locate bash_class
+  352  find /bash_test
+  353  locate bash_test
+  354  who
+  355  w
+  356  ps -ax
+  357  ps -aux
+  358  ps -ax
+  359  ps -aux
+  360  kill -9 4676
+  361  ps -aux
+  362  clear
+  363  service sshd start
+  364  systemctl start sshd
+  365  netstat | grep 22
+  366  clear
+  367  routee 
+  368  route -n
+  369  vim /etc/sysconfig/network
+  370  vi /etc/hosts
+  371  vim /etc/resolv.conf
+  372  cd /etc/squid
+  373  cd /etc
+  374  ls
+  375  find squid
+  376  locate squid
+  377  adduser hninsi
+  378  user hninsi
+  379  batch
+  380  su hninsi
+  381  ls
+  382  locate test
+  383  ls apple
+  384  locate apple
+  385  which apple
+  386  find apple
+  387  ls apple
+  388  cat apple
+  389  echo this is apple >> apple
+  390  cat apple
+  391  ls
+  392  vim apple
+  393  clear
+  394  lspaint
+  395  ls paint
+  396  ls photoshop
+  397  ls pci
+  398  lspci
+  399  clear
+  400  who are you
+  401  who
+  402  who are 
+  403  who are you
+  404  nc
+  405  nc 192.168.10.1 10000
+  406  ls
+  407  cd 
+  408  cd ..
+  409  cd zayar
+  410  ls
+  411  cd /zayar
+  412  cd /usr/zayar
+  413  cd /home/zayar
+  414  ls
+  415  cd bash_class/
+  416  ls
+  417  zcat 
+  418  zcat menu1.sh
+  419  ls
+  420  tar menu1.sh.gzip
+  421  ls
+  422  dir
+  423  ls
+  424  dir
+  425  ls
+  426  ls -al
+  427  ls -ll
+  428  ls -alh
+  429  ls -al
+  430  ls -ll
+  431  ls -alh
+  432  ls -ll
+  433  ls -al
+  434  ls -alh
+  435  tail -f /var/log
+  436  cd /var/log
+  437  ls
+  438  tail -f dnf.log
+  439  ls
+  440  tail -f boot.log 
+  441  cat boot.log
+  442  ls
+  443  touch my_test.sh
+  444  ls
+  445  ls -al
+  446  ls
+  447  md5 my_test.sh
+  448  dnf install md5
+  449  cd rmp
+  450  cd rpm
+  451  ls
+  452  cd download
+  453  cd Downloads/
+  454  ls
+  455  cd /home/zayar
+  456  ls
+  457  mkdir zayar_son
+  458  ls
+  459  ls -ll
+  460  ls -al
+  461  ls -llh
+  462  rm zayar_son
+  463  rm zayar_son/
+  464  rv zayar_son/
+  465  rmdir zayar_son/
+  466  ls
+  467  ls -ll
+  468  rm test
+  469  ls
+  470  ls -ll
+  471  mkdir zayar_dir
+  472  ls
+  473  ls -ll
+  474  chmod 222 zayar_dir/
+  475  ls
+  476  ls -ll
+  477  rmdir zayar_dir/
+  478  ls
+  479  ls -llh
+  480  ls
+  481  ls -ll
+  482  nc www.asianwingsair.com 80
+  483  telnet www.asianwingsair.com 80
+  484  telnet www.airbagan.com 80
+  485  exit
+  486  ls
+  487  ls -ll
+  488  ls -al
+  489  ls -llh
+  490  ls -ll
+  491  ls -al
+  492  nslookup www.yahoo.com
+  493  ls
+  494  vim os_selection.sh 
+  495  vim menu1_lab.sh
+  496  vim menu1.sh 
+  497  clear
+  498  id
+  499  id -u
+  500  ls
+  501  chmod a+x vhsot.sh
+  502  chmod a+x vhost.sh 
+  503  ./vhost.sh 
+  504  [A
+  505  ./vhost.sh 
+  506  cat /etc/httpd/conf.d/vhost.conf
+  507  vim /etc/httpd/conf.d/vhost.conf
+  508  cd /var/www/
+  509  ;s
+  510  ls
+  511  ls -ll
+  512  cd zayar.com
+  513  ls
+  514  ls -ll
+  515  ./vhost.sh 
+  516  cd /
+  517  ls
+  518  cd ~
+  519  ls
+  520  cd /home/zayar
+  521  ls
+  522  cd bash_class/
+  523  ls
+  524  ./vhost.sh 
+  525  cd /var/www/
+  526  ls
+  527  cd airbagan.com/
+  528  ls
+  529  ls
+  530  ./vhost.sh 
+  531  exit
+  532  ls
+  533  nslookup www.google.com
+  534  ls
+  535  cd bash_class/
+  536  ls
+  537  vim bash_test2
+  538  clear
+  539  ls
+  540  ls -ll
+  541  ls
+  542  clear
+  543  lc
+  544  clear
+  545  ls
+  546  vim vhost.sh
+  547  clear
+  548  cat text
+  549  clear
+  550  vim calm_intall.sh
+  551  clear
+  552  sdff
+  553  e
+  554  ret
+  555  dwf
+  556  sf
+  557  ./vhost.sh 
+  558  clear
+  559  vim text
+  560  clear
+  561  sed -i 's/September/August/' text
+  562  cat text
+  563  chmod a+x calm_intall.sh 
+  564  ./calm_intall.sh 
+  565  cat /etc/freshclam.conf
+  566  ls
+  567  echo "tripzay" | openssl enc -aes256 -k tripzay | openssl enc -base64
+  568  chmod a+x private_shell.sh 
+  569  ./private_shell.sh 
+  570  echo tripzay | openssl enc -aes256
+  571  exit
+  572  ./private_shell.sh 
+  573  clear
+  574  ./private_shell.sh 
+  575  clear
+  576  ./private_shell.sh 
+  577  clear
+  578  ./private_shell.sh 
+  579  asdf
+  580  fd
+  581  '
+  582  '
+  583  '
+  584  sh
+  585  ls
+  586  exit
+  587  exit
+  588  '
+  589  "
+  590  ''ad
+  591  '
+  592  "
+  593  ls
+  594  clear
+  595  ls
+  596  cd bash_class/
+  597  ls
+  598  vim private_shell.sh
+  599  ls
+  600  ./private_shell.sh 
+  601  clear
+  602  ./private_shell.sh 
+  603  clear
+  604  vim private_shell.sh 
+  605  halt
+  606  ./private_shell.sh 
+  607  clear
+  608  echo /etc/redhat-release 
+  609  cat /etc/redhat-release 
+  610  cat /etc/redhat-release | awk ${print3}
+  611  cat /etc/redhat-release | awk '${print3}'
+  612  cat /etc/redhat-release | awk '{$print3}'
+  613  cat /etc/redhat-release | awk '{$print2}'
+  614  cat /etc/redhat-release | awk '{$print1}'
+  615  cat /etc/redhat-release 
+  616  ls
+  617  cat os_selection.sh 
+  618  ls
+  619  cat bash_test2
+  620  clear
+  621  ls
+  622  clear
+  623  ./private_shell.sh 
+  624  cd /~/home/zayar/bash_class
+  625  cd /home/zayar/bash_class/
+  626  ls
+  627  cp private_shell.sh tmsh_shell.sh
+  628  ls
+  629  vim tmsh_shell.sh
+  630  ./private_shell.sh 
+  631  clear
+  632  ls
+  633  cd /etc
+  634  ls
+  635  ls -ll
+  636  cd vmware-tools/
+  637  ls
+  638  cd ..
+  639  cd ~
+  640  cd /etc/
+  641  ls
+  642  cd ..
+  643  cd /etc
+  644  ls
+  645  exit
+  646  ./private_shell.sh 
+  647  ls
+  648  clear
+  649  ls
+  650  exit
+  651  ./private_shell.sh 
+  652  quit
+  653  exit
+  654  ./private_shell.sh 
+  655  ./tmsh_shell.sh 
+  656  exit
+  657  dnf install figlet
+  658  figlet hp
+  659  figlet zayarwin
+  660  ./private_shell.sh 
+  661  clear
+  662  nc localhost 2222
+  663  nc localhost 3333
+  664  chkconfig
+  665  service-status-all
+  666  chkconfig -list name
+  667  ls
+  668  cd bash_class/
+  669  ls
+  670  ./private_shell.sh 
+  671  vim private_shell.sh 
+  672  clear
+  673  screen
+  674  dnf install screen -y
+  675  screen
+  676  screen -r
+  677  screen 
+  678  screen -r
+  679  screen 11357
+  680  screen -r 11357
+  681  screen -r 11571
+  682  scree -r
+  683  screen -r
+  684  screen
+  685  clear
+  686  screen -r
+  687  service-status-all
+  688  systemctl name start
+  689  systemctl httpd start
+  690  nc -lkp 2222 
+  691  cd /home/zayar
+  692  ls
+  693  cd bash_class/
+  694  ls
+  695  nc -lkp 2222 -e private_shell.sh
+  696  screen
+  697  nc -lkp 2222 -e private_shell.sh
+  698  ls
+  699  vim os_selection.sh 
+  700  ls
+  701  ./os_selection.sh 
+  702  nc -lkp 3333 -e tmsh_shell.sh
+  703  clear
+  704  ls
+  705  clear
+  706  cd bash_class/
+  707  clear
+  708  ./private_shell.sh 
+  709  clea
+  710  clear
+  711  ./private_shell.sh 
+  712  qu
+  713  exit
+  714  dnf update -y
+  715  cleaer
+  716  clear
+  717  uname -r
+  718  uname -a
+  719  uname -r
+  720  uname -a
+  721  uname -r
+  722  clear
+  723  hostname
+  724  hostname zayarwin
+  725  ls
+  726  hostname
+  727  hostname zayarwin.com
+  728  hostname
+  729  clear
+  730  ls
+  731  ll
+  732  ll -al
+  733  ll
+  734  lll
+  735  ll
+  736  cd bash_class/
+  737  ll
+  738  ./private_shell.sh 
+  739  alias vi vim
+  740  alia vi vim
+  741  alis vi vim
+  742  clear
+  743  ls
+  744  ll
+  745  cleaer
+  746  clear
+  747  ll
+  748  clear
+  749  ls
+  750  ll
+  751  list
+  752  ll -al
+  753  ls
+  754  lll
+  755  ll
+  756  cd Documents/
+  757  ls
+  758  ll
+  759  ls
+  760  ll
+  761  clear
+  762  ll
+  763  uname -r
+  764  ls
+  765  ll
+  766  clear
+  767  ll
+  768  clear
+  769  ll
+  770  cd Documents/
+  771  ll
+  772  clear
+  773  ll
+  774  cd /zayar
+  775  cd zayar
+  776  cd 425
+  777  lll
+  778  ll
+  779  cat bash_test.sh
+  780  clear
+  781  cd ..
+  782  ll
+  783  cd bash_class/
+  784  ll
+  785  vim for.sh
+  786  chmod a+x untail.sh
+  787  chmod a+x untail.sh 
+  788  ./untail.sh 
+  789  vim untailadd.sh
+  790  chmod a+x untailadd.sh 
+  791  ./untailadd.sh 
+  792  ll -l
+  793  vi private_shell.sh 
+  794  vim private_shell.sh 
+  795  ll -l dummy.txt | awk '{print $5}
+  796  exit
+  797  ./untailadd.sh 
+  798  ls -l
+  799  ./untailadd.sh 
+  800  rm -rf dummy.txt 
+  801  ls -l
+  802  ./untailadd.sh 
+  803  ls -l
+  804  ./untailadd.sh 
+  805  ls -l
+  806  lspci
+  807  clear 
+  808  ls 
+  809  ll 
+  810  rm -rf dummy.txt 
+  811  touch dummy,txt
+  812  rm -rf dummy,txt 
+  813  ./untailadd.sh 
+  814  ls -l
+  815  rm -rf dummy.txt 
+  816  ls -l
+  817  ./untailadd.sh 
+  818  ls -l
+  819  rm -rf dummy.txt 
+  820  ls -l
+  821  ./untailadd.sh 
+  822  ls -l
+  823  ./untailadd.sh 
+  824  ls
+  825  ls -l
+  826  cat dummy1.txt 
+  827  touch dummy1.txt
+  828  ./untailadd.sh 
+  829  ls -l
+  830  ./untailadd.sh 
+  831  ls -l
+  832  ./untailadd.sh 
+  833  ls -l
+  834  ./untailadd.sh 
+  835  ls -l
+  836  ./untailadd.sh 
+  837  ls -l
+  838  ./untailadd.sh 
+  839  ls -l
+  840  ls -lh
+  841  ./untailadd.sh 
+  842  ls -lh
+  843  ./untailadd.sh 
+  844  ./untailadd.sh
+  845  ls -l
+  846  ./untailadd.sh
+  847  ls -lh
+  848  ll
+  849  cd bash_class/
+  850  ll
+  851  vim untail.sh
+  852  clear 
+  853  ll
+  854  touch dummy.txt
+  855  ll
+  856  ls -l
+  857  vim os_selection.sh 
+  858  ll -lh
+  859  cd bash_class/
+  860  ll -lh
+  861  find *.sh
+  862  cd for.sh
+  863  ls -lh
+  864  dir
+  865  list
+  866  ls
+  867  dir
+  868  ls
+  869  ll
+  870  alias vi vim
+  871  cler
+  872  alias vi vim
+  873  alias vi="vim"
+  874  vi untail.sh 
+  875  mv untail.sh until.sh
+  876  mv untailadd.sh until01.sh
+  877  ls
+  878  ll
+  879  vi until.sh 
+  880  vi until01.sh 
+  881  clear
+  882  ls
+  883  ll -lh
+  884  exit
+  885  ls -ll
+  886  clear
+  887  mkdir bash0001.sh
+  888  rm rf- bash0001.sh/
+  889  rmdir bash0001.sh/
+  890  ll
+  891  mkdir my_bash_lab
+  892  ll
+  893  clear
+  894  ll -ll
+  895  ls -ll
+  896  clear
+  897  ll
+  898  cd my_bash_lab/
+  899  ll
+  900  vi bash0001
+  901  ll
+  902  vi bash0001.sh
+  903  alias vi="vim"
+  904  vi bash0001.sh 
+  905  ls -l
+  906  ls -ll
+  907  ll 
+  908  ll
+  909  clear
+  910  ll
+  911  ls -ll
+  912  lll
+  913  ll
+  914  lh
+  915  ll -lh
+  916  cd bash_class/
+  917  ll
+  918  vi vhost.sh 
+  919  vi menu1.sh 
+  920  alias vi="vim"
+  921  vi apple.txt 
+  922  rm -rf apple.txt 
+  923  ls -ll
+  924  vi bash_test
+  925  vi bash_test2
+  926  vi building_bash 
+  927  vi calm_intall.sh 
+  928  vi download 
+  929  vi dummy1.txt 
+  930  rm -rf dummy1.txt 
+  931  rm -rf dummy.txt 
+  932  ll
+  933  vi for.sh 
+  934  clear
+  935  ll
+  936  ll -lh
+  937  clear
+  938  ll -lh
+  939  vi menu1.sh 
+  940  nslookup www.google.com
+  941  ls
+  942  ll
+  943  dnf install git
+  944  git
+  945  ll
+  946  mkdir myshell
+  947  ll
+  948  cd myshell/
+  949  ll
+  950  vim myshell.sh
+  951  clear
+  952  git global --config user.name "Tripzay"
+  953  git --global config user.name "Tripzay"
+  954  git config --global user.name "Tripzay"
+  955  git config --global user.email "geologyzay@gmail.com"
+  956  git remote add origin https://github.com/Tripzay/myshell.git
+  957  git init  
+  958  git remote add origin https://github.com/Tripzay/myshell.git
+  959  cd /home/zayar/myshell/
+  960  ll
+  961  cd /home/zayar/
+  962  ll
+  963  cd myshell/
+  964  ll
+  965  cd /home/zayar/myshell/.git/
+  966  ll
+  967  git pull origin master
+  968  cd /home/zayar/myshell/
+  969  git pull origin master
+  970  ll
+  971  ls
+  972  git add . 
+  973  git commit -m "My first upload"
+  974  git status 
+  975  git push origin master 
+  976  history
+  977  history > zay.txt
